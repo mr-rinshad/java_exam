@@ -1,4 +1,3 @@
-```java id="5q1nzc"
 import java.util.Scanner;
 
 class Publisher
