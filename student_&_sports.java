@@ -1,4 +1,4 @@
-```java id="4j8wpl"
+
 import java.util.Scanner;
 
 class Student
@@ -58,4 +58,4 @@ public class multi_inheri
         r.displaySportsMarks();
     }
 }
-```
+
