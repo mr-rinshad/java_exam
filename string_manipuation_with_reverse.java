@@ -20,11 +20,7 @@ public class Main {
         String lower = s1.toLowerCase();
 
         // Reverse the string
-        String reverse = "";
-
-        for (int i = s1.length() - 1; i >= 0; i--) {
-            reverse = reverse + s1.charAt(i);
-        }
+        String reverse = new StringBuilder(s1).reverse().toString();
 
         // Check palindrome
         if (s1.equalsIgnoreCase(reverse)) {
